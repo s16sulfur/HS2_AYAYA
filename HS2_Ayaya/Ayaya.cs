@@ -4,7 +4,6 @@ using HarmonyLib;
 
 namespace Patchers
 {
-    // [BepInProcess("StudioNEOV2")]
     [BepInPlugin(GUID, PluginName, Version)]
     public class Ayaya : BaseUnityPlugin
     {
@@ -49,7 +48,7 @@ namespace Patchers
 
         public const string PluginNameInternal = "HS2_Ayaya";
 
-        public const string Version = "1.0";
+        public const string Version = "1.0.1";
 
         internal void Main()
         {
